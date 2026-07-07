@@ -26,3 +26,28 @@
 - **Database:** SQLite (Enterprise-ready logic)
 - **Frontend:** Tailwind CSS, JavaScript (ES6+), Chart.js
 - **Icons/UI:** FontAwesome 6, Plus Jakarta Sans Typography
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-repo/octate-odyssey.git
+   cd octate-odyssey
+# BASH CODE
+## pip install fastapi uvicorn sqlalchemy requests pywin32 wmi python-multipart
+## python setup_admin.py
+## python -m uvicorn server.app.main:app --host 0.0.0.0 --port 8000 --reload
+
+# 📊 CSV Data Structure
+
+To use the bulk upload feature, ensure your CSV files follow these headers:
+## Fleet Enrollment (fleet.csv)
+hostname	ip_address	owner
+## Hardware Whitelist (whitelist.csv)
+serial	owner
+
+
+# ⚖️ License
+Distributed under the MIT License. See LICENSE for more information.
+Developed by Mustaquim Ahmad | Octate Odyssey Device Block Service
+
